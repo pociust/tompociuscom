@@ -42,7 +42,7 @@ a:hover {
   text-align: center;
 }
 
-.facts {
+#factsButton {
   font-size: 1.5em;
   font-weight: 600;
   height: 4em;
@@ -54,5 +54,5 @@ a:hover {
   vertical-align: left;
   letter-spacing: -2px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background: linear-gradient(0deg, #f7f6f4 50%, #f70707 55%);
+  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%););
 }

@@ -22,6 +22,7 @@ a:hover {
   background-color: white;
   width: 100%;
   max-width: 1000px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,8 +35,24 @@ a:hover {
 
 #social {
   margin-left: 15px;
+  margin-top: 40px;
 }
 
 #about {
   text-align: center;
+}
+
+.facts {
+  font-size: 1.5em;
+  font-weight: 600;
+  height: 4em;
+  width: 10em;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  display: table-cell;
+  margin-top: 50px;
+  vertical-align: left;
+  letter-spacing: -2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: linear-gradient(0deg, #f7f6f4 50%, #f70707 55%);
 }

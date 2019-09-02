@@ -3,3 +3,7 @@ function randomFact(){
   var ri = Math.floor(Math.random() * tomFactArray.length);
   document.getElementById("factsButton").innerHTML = (tomFactArray[ri]);
 }  
+
+var iframe = document.getElementById("iframe");
+var div = document.getElementById("sailing");
+div.innerHTML = iframe.contentWindow.document.getElementById("Spinnaker 1").innerHTML;

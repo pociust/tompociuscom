@@ -14,6 +14,11 @@ a:hover {
   opacity: 0.5;
 }
 
+img {
+  max-width:25%; 
+  max-height:25%;
+}
+
 .flexbox {
   display: flex;
 }
@@ -23,9 +28,8 @@ a:hover {
   justify-content: space-around;
 }
 
-img {
-  max-width:25%; 
-  max-height:25%;
+.mySlides {
+  width:100%;
 }
 
 #container {

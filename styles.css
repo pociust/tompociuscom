@@ -14,9 +14,52 @@ a:hover {
   opacity: 0.5;
 }
 
-img {
-  max-width:25%; 
-  max-height:25%;
+#evey img {
+  width: 500px; 
+  height: 300px;
+  object-fit: fill;
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  left: 81%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #a6f587;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 .flexbox {
@@ -25,11 +68,7 @@ img {
 
 .flexContent {
   display: flex;
-  justify-content: space-around;
-}
-
-.mySlides {
-  width:100%;
+  justify-content: space-between;
 }
 
 #container {
@@ -70,3 +109,4 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%););
 }
+

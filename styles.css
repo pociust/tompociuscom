@@ -1,159 +1,57 @@
 body {
-  background-color: #EEE;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
-#social a {
-  text-align: center;
-  padding-right: 16px;
-  text-decoration: none;
-
-}
-#social a:hover {
-  color: #0abab5;
-  opacity: 0.5;
-}
-
-.text-center {
-  text-align: center;
-}
-
-#left-column {
-  margin: 0 20px;
-}
-
-
-#right-column {
-  margin: 0 20px 0 20px;
-  width: 100%;
-}
-
-#evey {
-  position: relative;
-  height: 250px;
-  width: 50%;
-  margin: 0 auto 40px auto;
-}
-
-#evey img {
-  width: 100%; 
-  height: 100%;
-  object-fit: cover;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
+.landing-background {
   width: auto;
-  padding: 20px;
-  margin-top: -32px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  height: 100vw;
+  background-color: #bccbde;
 }
 
-.next {
-  right: 0%;
-  border-radius: 3px 0 0 3px;
+.big-text {
+  font-size: 32px;
+  line-height: 30px;
+  color: #fff;
 }
 
-.prev:hover, .next:hover {
-  background-color: #a6f587;
+.highlight {
+  color: #e05915;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.button {
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  transition: all 0.5s;
+  padding: 12px;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.button:hover {
+  background-color: #cdd422;
+  border-color: #cdd422;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.section2 {
+  width: auto;
+  height: 100vw;
+  background-color: #431c5d;
+}
+.section2 .big-text {
+  color: #57de91;
+  font-size: 50px;
 }
 
-.flexbox {
-  display: flex;
+.about-underline {
+  height: 5px;
+  width: 70px;
+  background-color: black;
 }
 
-.flexContent {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* XS */
-@media (max-width: 767px) {
-  .flexContent {
-    flex-direction: column;
-  }
-  
-}
-
-
-#container {
-  background-color: white;
-  width: 100%;
-  max-width: 1000px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#header {
-  color: white;
-  text-align: center;
-  background-color:#0abab5;
-}
-
-/* XS */
-@media (max-width: 767px) {
-  #header {
-    background-color:#9412b4;
-  }
-  
-}
-
-#social {
-  margin-left: 15px;
-  margin-top: 40px;
-}
-
-#about {
-  text-align: center;
-}
-/* XS */
-@media (max-width: 767px) {
-  #about {
-    display: none;
-  }
-}
-
-#factsButton {
-  font-size: 1.5em;
-  font-weight: 600;
-  height: 4em;
-  width: 10em;
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  display: table-cell;
-  margin-top: 50px;
-  vertical-align: left;
-  letter-spacing: -2px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%););
-}
-
-#sailing {
-  margin: 0 auto;
-  display: block;
+.section3 {
+  width: auto;
+  height: 100vw;
+  background-color: blue;
 }

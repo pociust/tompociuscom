@@ -1,51 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no" /> 
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
     <title>Tom Pocius Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/frow@3/dist/frow.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div id="container">
-      <div id="header">
-        <h1> Thomas Pocius </h1>
-      </div>
-      <div id="about">
-        A Physical Therapist turned full stack developer looking for a career change
-      </div>
-      <div id="social">
-        <h2>Social</h2>
-        <div class="flexbox">
-          <a href="https://github.com/pociust" target="_blank">  GitHub </a>
-          <a href="mailto: poci14@gmail.com"> Email</a>
-          <a href="https://www.linkedin.com/in/tom-pocius-98b4bb27" target="_blank"> Linkedin </a>
+    <div class="landing-background frow items-center">
+      <div class="frow column-center big-text">
+        <div>Hello! I'm <span class="highlight">Thomas Pocius.</span></div>
+        <div>
+          A physical therapist turned full-stack developer
         </div>
-      </div>
-      <div class="flexContent">
-       
-        <div id="left-column">
-          <button onclick="randomFact()" id="factsButton">Click for facts about Tom!!</button>
-
+        <div id="landing-button-div" class="mt-20 button">
+          Checkout my page
         </div>
-        <div id="right-column">
-          <h3 class="text-center">Check out Evey!!!</h3>
-          <div id="evey">
-            <img class="mySlides fade" src="imageEvey/image1.jpeg"/>
-            <img class="mySlides fade" src="imageEvey/image2.jpg"/>
-            <img class="mySlides fade" src="imageEvey/image3.jpg"/>
-            <img class="mySlides fade" src="imageEvey/image4.jpg"/>
-            <img class="mySlides fade" src="imageEvey/image5.JPG"/>
-            <img class="mySlides fade" src="imageEvey/image6.jpg"/>
-            <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
-            <a class="next" onclick="plusDivs(+1)">&#10095;</a>
-          </div>
-          <h3 class="text-center">Check out how Tom is doing Sailing!!!</h3>
-          <iframe id="sailing" src="https://yachtscoring.com/event_results_cumulative.cfm?eID=7368"></iframe>
-        </div>
-        <script src="script.js"></script>
       </div>
     </div>
+    <div id="section-2" class="section2">
+      <div class="frow column-center pt-100">
+        <div class="big-text mb-15">
+          ABOUT
+        </div>
+        <div class="about-underline"></div>
+      </div>
+    </div>
+
+    <div id="section-3" class="section3">
+      Section 3
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

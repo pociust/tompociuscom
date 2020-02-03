@@ -65,5 +65,165 @@ i {
 .section3 {
   width: auto;
   height: 100vw;
-  background-color: blue;
+  background-color: #edbabf;
+}
+
+.wrapper {
+  width: 250px;
+  height: 200px;
+  box-shadow: 0px 1px 3px 0px #a0a0a0;
+  margin: 10px 0;
+  background-size: cover;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.wrapper:hover {
+  box-shadow: 0 4px 8px 0 #333;
+}
+
+.label {
+  background-color: var(--theme-color);
+  color: #333;
+  padding: 4px 0;
+  margin-top: 130px;
+  text-align: center;
+  width: 100%;
+}
+
+.label.absolute {
+  margin: 0;
+  position: absolute;
+  top: 130px;
+}
+
+.beer__container {
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+@-webkit-keyframes bubbles {
+  0% {
+    visibility: visible;
+    transform: scale(0);
+    top: 100%;
+  }
+  15% {
+    transform: scale(1);
+    top: 100%;
+  }
+  100% {
+    top: -100%;
+    transform: translateY(-10%);
+  }
+}
+
+.beer {
+  position: relative;
+  overflow: hidden;
+  background: #f28e1c;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #c05600 0%,
+    #dc7000 21%,
+    #e87c00 51%,
+    #e87c00 81%,
+    #dc7000 100%
+  );
+  /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, #c05600),
+    color-stop(21%, #dc7000),
+    color-stop(51%, #e87c00),
+    color-stop(81%, #e87c00),
+    color-stop(100%, #dc7000)
+  );
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    left,
+    #c05600 0%,
+    #dc7000 21%,
+    #e87c00 51%,
+    #e87c00 81%,
+    #dc7000 100%
+  );
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    left,
+    #c05600 0%,
+    #dc7000 21%,
+    #e87c00 51%,
+    #e87c00 81%,
+    #dc7000 100%
+  );
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    left,
+    #c05600 0%,
+    #dc7000 21%,
+    #e87c00 51%,
+    #e87c00 81%,
+    #dc7000 100%
+  );
+  /* IE10+ */
+  background: linear-gradient(
+    to right,
+    #c05600 0%,
+    #dc7000 21%,
+    #e87c00 51%,
+    #e87c00 81%,
+    #dc7000 100%
+  );
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c05600', endColorstr='#dc7000',GradientType=1 );
+  /* IE6-9 */
+}
+
+.bubble {
+  position: absolute;
+  background-color: transparent;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/173991/bubble.png);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 100%;
+  opacity: 0.5;
+  visibility: hidden;
+  filter: blur(1px);
+  animation: bubbles 7s infinite;
+  z-index: 1;
+}
+
+.planner {
+  background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');
+}
+
+.password {
+  background-image: url('https://images.unsplash.com/photo-1558403730-68a757a213b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
+}
+
+.small-country {
+  font-size: 10px;
+}
+.weather {
+  font-size: 16px;
+  text-align: center;
+  background-color: #c8ebfb;
+}
+.weather img {
+  height: 50px;
+  width: auto;
+}
+
+.puzzle {
+  background-image: url('https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80');
+}
+
+.pool {
+  background-image: url('https://images.unsplash.com/photo-1452289765185-5df11aa2a706?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1921&q=80');
 }

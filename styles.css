@@ -78,8 +78,9 @@ i {
   height: 200px;
   box-shadow: 0px 1px 3px 0px #a0a0a0;
   margin: 10px 0;
+  background-repeat: no-repeat;
+
   background-size: cover;
-  position: relative;
   transition: box-shadow 0.3s;
 }
 
@@ -87,9 +88,16 @@ i {
   box-shadow: 0 4px 8px 0 #333;
 }
 
-.show-beer {
+/* .show-beer {
   display: none;
+} */
+/* .wrapper div {
+  visibility: hidden;
 }
+
+.wrapper:hover div {
+  visibility: visible;
+} */
 
 .label {
   background-color: var(--theme-color);
@@ -98,12 +106,6 @@ i {
   margin-top: 130px;
   text-align: center;
   width: 100%;
-}
-
-.label.absolute {
-  margin: 0;
-  position: absolute;
-  top: 130px;
 }
 
 .beer__container {
@@ -211,7 +213,6 @@ i {
 .planner {
   background-image: url('./imageEvey/notetaker.png');
 }
-
 .password {
   background-image: url('./imageEvey/passwordgen.png');
 }

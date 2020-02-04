@@ -3,6 +3,9 @@ body {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+}
 .landing-background {
   width: auto;
   height: 100vh;
@@ -25,7 +28,7 @@ body {
   cursor: pointer;
   display: inline-block;
   font-size: 20px;
-  transition: all 0.5s;
+  transition: all 0.4s;
   padding: 12px;
 }
 
@@ -74,38 +77,34 @@ i {
 }
 
 .wrapper {
-  width: 250px;
-  height: 200px;
+  width: 275px;
+  height: 225px;
   box-shadow: 0px 1px 3px 0px #a0a0a0;
-  /* margin: 10px 0; */
   background-repeat: no-repeat;
-
   background-size: cover;
   transition: box-shadow 0.3s;
 }
 
 .wrapper:hover {
   box-shadow: 0 4px 8px 0 #333;
+  background-color: white;
 }
 
-/* .show-beer {
-  display: none;
-} */
-/* .wrapper div {
+.wrapper .label {
   visibility: hidden;
 }
 
-.wrapper:hover div {
+.wrapper:hover .label {
   visibility: visible;
-} */
+  background-color: white;
+  width: 275px;
+  height: 225px;
+  transition: background-color 0.5s;
+}
 
 .label {
-  background-color: var(--theme-color);
-  color: #333;
-  padding: 4px 0;
-  margin-top: 130px;
-  text-align: center;
-  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .beer__container {

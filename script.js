@@ -60,9 +60,8 @@ $(function() {
           height: bubbleSize + 'px',
           left: xPos + '%',
           top: yPos + '%',
-          '-webkit-animation-delay': bubbleDelay + 'ms',
-          '-webkit-animation-duration': bubbleSpeed + 'ms',
-          '-webkit-filter': 'blur(' + bubbleBlur + 'px)',
+          'animation-delay': bubbleDelay + 'ms',
+          'animation-duration': bubbleSpeed + 'ms',
           filter: 'blur(' + bubbleBlur + 'px)',
           opacity: bubbleOpacity
         });

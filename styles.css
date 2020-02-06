@@ -1,6 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
 }
 
 a,
@@ -59,7 +58,6 @@ a:active {
 .about-text {
   color: #fff;
   font-size: 20px;
-  margin: 40px;
   line-height: 30px;
 }
 

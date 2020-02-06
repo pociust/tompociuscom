@@ -3,12 +3,15 @@ body {
   font-weight: 500;
 }
 
-a {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
 }
 .landing-background {
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #bccbde;
 }
 
@@ -39,7 +42,7 @@ a {
 
 .section2 {
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #431c5d;
 }
 .section2 .big-text {
@@ -67,7 +70,7 @@ i {
 
 .section3 {
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #edbabf;
 }
 
@@ -82,6 +85,7 @@ i {
   box-shadow: 0px 1px 3px 0px #a0a0a0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   transition: box-shadow 0.3s;
 }
 
@@ -90,21 +94,22 @@ i {
   background-color: white;
 }
 
-.wrapper .label {
-  visibility: hidden;
-}
-
-.wrapper:hover .label {
-  visibility: visible;
-  background-color: white;
+.wrapper .label.frow {
+  display: none;
+  text-decoration: none;
+  font-size: 20px;
   width: 275px;
   height: 225px;
   transition: background-color 0.5s;
 }
 
-.label {
-  text-decoration: none;
-  font-size: 20px;
+.wrapper:hover .label.frow {
+  display: flex;
+  background-color: white;
+}
+
+.wrapper:hover #searched-city-info {
+  display: none;
 }
 
 .beer__container {
@@ -114,7 +119,7 @@ i {
   width: 100%;
 }
 
-@-webkit-keyframes bubbles {
+@keyframes bubbles {
   0% {
     visibility: visible;
     transform: scale(0);
@@ -240,7 +245,7 @@ i {
 .section-4 {
   background-color: #252934;
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
   color: #fff;
 }
 

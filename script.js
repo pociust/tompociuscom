@@ -90,7 +90,7 @@ function searchCity(city) {
 function displayCityInfo(response) {
   let createDiv = $(
     `<h2>
-      ${response.city.name},<span class=small-country> ${response.city.country}</span>
+      ${response.city.name},<span class="small-country"> ${response.city.country}</span>
     </h2>
     <div>
       ${response.list[0].main.temp}°F
@@ -101,7 +101,7 @@ function displayCityInfo(response) {
     </div>
     <div>
       Wind: ${response.list[0].wind.speed}MPH
-    <div>
+    </div>
     <div class="label absolute">Check the weather! </div>
 
   `

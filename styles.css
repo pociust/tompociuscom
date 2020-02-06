@@ -69,12 +69,16 @@ i {
 .section3 {
   width: auto;
   min-height: 100vh;
-  background-color: #edbabf;
+  background-color: #f4f8fd;
 }
 
 .project-text {
   font-size: 60px;
-  color: #fff;
+  color: #5f8db2;
+}
+
+.project-text + .about-underline {
+  width: 170px;
 }
 
 .wrapper {

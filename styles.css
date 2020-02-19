@@ -247,7 +247,7 @@ i {
 .section-4 {
   background-color: #252934;
   width: auto;
-  min-height: 100vh;
+  min-height: 50vh;
   color: #fff;
 }
 
@@ -278,3 +278,11 @@ textarea {
   margin-bottom: 5px;
   min-height: 150px;
 }
+
+.contact a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+

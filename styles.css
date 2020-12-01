@@ -258,7 +258,7 @@ i {
   width: auto;
 }
 
-.puzzle {
+.BAE-project {
   background-image: url('./imageEvey/bae.png');
 }
 
@@ -268,7 +268,7 @@ i {
 
 @media(max-width: 767px) {
   .mobile-project-align a {
-    margin-top: 10px;
+    margin: 10px 0;
   }
 }
 

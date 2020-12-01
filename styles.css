@@ -24,6 +24,11 @@ a:active {
   color: #e05915;
 }
 
+.align-landing-text {
+  text-align: center;
+  margin: auto 20px;
+}
+
 .button {
   border: 2px solid #fff;
   box-sizing: inherit;

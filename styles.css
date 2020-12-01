@@ -320,4 +320,9 @@ textarea {
   padding: 10px;
 }
 
+.contact a:hover {
+  background-color: #cdd422;
+  border-color: #cdd422;
+}
+
 

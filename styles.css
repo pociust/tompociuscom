@@ -72,6 +72,12 @@ a:active {
 
 }
 
+@media(max-width: 767px) {
+  .about-text {
+    margin: 30px
+  }
+}
+
 .languages-column,
 i {
   padding: 10px;

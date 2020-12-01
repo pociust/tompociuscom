@@ -43,6 +43,8 @@ a:active {
   width: auto;
   min-height: 100vh;
   background-color: #431c5d;
+  color: #fff;
+
 }
 .section2 .big-text {
   color: #57de91;
@@ -55,11 +57,28 @@ a:active {
   background-color: black;
 }
 
-.about-text {
-  color: #fff;
-  font-size: 20px;
-  line-height: 30px;
+@media (min-width: 767px){
+  .about-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .about-content {
+    width: 50%;
+  }
+
 }
+
+@media (max-width: 767px){
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+
+
 
 .languages-column,
 i {

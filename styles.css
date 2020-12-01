@@ -72,17 +72,6 @@ a:active {
 
 }
 
-/* @media (max-width: 767px){
-  .mobile-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-} */
-
-
-
-
 .languages-column,
 i {
   padding: 10px;
